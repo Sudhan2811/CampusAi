@@ -1,0 +1,9 @@
+@"
+fastapi
+uvicorn[standard]
+boto3
+python-dotenv
+sentence-transformers
+faiss-cpu
+pypdf
+"@ | Set-Content requirements.txt
